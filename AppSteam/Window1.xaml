@@ -1,0 +1,52 @@
+﻿<Window x:Class="AppSteam.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AppSteam"
+        mc:Ignorable="d"
+        Title="Window1" Height="450" Width="800">
+    <Grid>
+        
+        <Grid.Background>
+            <ImageBrush ImageSource="/liga.jpg"/>
+        </Grid.Background>
+        
+        <Button Content="Botón redondo" Background="{x:Null}" Click="siguienteventana" HorizontalAlignment="Center" VerticalAlignment="Top" Width="188" Height="36" Margin="0,240,0,0">
+            <Button.Template>
+                <ControlTemplate TargetType="Button">
+                    <Border CornerRadius="20" Padding="10" Margin="0,0,13,3">
+                        <Border.Background>
+                            <ImageBrush ImageSource="/metallic-gold-gradient-golden-color-photo.jpg"/>
+                        </Border.Background>
+                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" Content="Iniciar Juego"/>
+                    </Border>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+        <Button Content="Botón redondo" Background="{x:Null}" Click="siguienteDOS" HorizontalAlignment="Center" VerticalAlignment="Top" Width="188" Height="36" Margin="0,281,0,0">
+            <Button.Template>
+                <ControlTemplate TargetType="Button">
+                    <Border CornerRadius="20" Padding="10" Margin="0,0,13,3">
+                        <Border.Background>
+                            <ImageBrush ImageSource="/metallic-gold-gradient-golden-color-photo.jpg"/>
+                        </Border.Background>
+                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" Content="Dos Jugadores"/>
+                    </Border>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+        <Button x:Name="ajustes" Margin="0,29,37,0" RenderTransformOrigin="0.313,0.401" Width="47" Height="49" VerticalAlignment="Top" HorizontalAlignment="Right" Click="siguienteAjustes">
+            <Button.Template>
+                <ControlTemplate TargetType="Button">
+                    <Ellipse Width="30" Height="30">
+                        <Ellipse.Fill>
+                            <ImageBrush ImageSource="/6173216.png"/>
+                        </Ellipse.Fill>
+                    </Ellipse>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+        
+    </Grid>
+</Window>

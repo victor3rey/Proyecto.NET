@@ -1,0 +1,66 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="6173216.png" />
+    <None Remove="athletic.png" />
+    <None Remove="atm.png" />
+    <None Remove="betis.png" />
+    <None Remove="blanconegroliga.png" />
+    <None Remove="cadiz.png" />
+    <None Remove="celta.png" />
+    <None Remove="elche.png" />
+    <None Remove="espanyol.png" />
+    <None Remove="FCB.png" />
+    <None Remove="getafe.png" />
+    <None Remove="girona.png" />
+    <None Remove="liga.jpg" />
+    <None Remove="ligaSantander.png" />
+    <None Remove="mallorca.png" />
+    <None Remove="metallic-gold-gradient-golden-color-photo.jpg" />
+    <None Remove="osasuna.png" />
+    <None Remove="rayoo.png" />
+    <None Remove="real madrid.png" />
+    <None Remove="real sociedad.png" />
+    <None Remove="sevilla.png" />
+    <None Remove="UD Almeria.png" />
+    <None Remove="valencia.png" />
+    <None Remove="valladolid.png" />
+    <None Remove="villareal.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="6173216.png" />
+    <Resource Include="athletic.png" />
+    <Resource Include="atm.png" />
+    <Resource Include="betis.png" />
+    <Resource Include="blanconegroliga.png" />
+    <Resource Include="cadiz.png" />
+    <Resource Include="celta.png" />
+    <Resource Include="elche.png" />
+    <Resource Include="espanyol.png" />
+    <Resource Include="FCB.png" />
+    <Resource Include="getafe.png" />
+    <Resource Include="girona.png" />
+    <Resource Include="liga.jpg" />
+    <Resource Include="ligaSantander.png" />
+    <Resource Include="mallorca.png" />
+    <Resource Include="metallic-gold-gradient-golden-color-photo.jpg" />
+    <Resource Include="osasuna.png" />
+    <Resource Include="rayoo.png" />
+    <Resource Include="real madrid.png" />
+    <Resource Include="real sociedad.png" />
+    <Resource Include="sevilla.png" />
+    <Resource Include="UD Almeria.png" />
+    <Resource Include="valencia.png" />
+    <Resource Include="valladolid.png" />
+    <Resource Include="villareal.png" />
+  </ItemGroup>
+
+</Project>
