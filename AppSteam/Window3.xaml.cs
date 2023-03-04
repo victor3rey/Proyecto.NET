@@ -26,8 +26,13 @@ namespace AppSteam
 
         private void VolverAtras(object sender, RoutedEventArgs e)
         {
+
             Window1 window1 = new Window1();
-            this.Content = window1.Content;
+            this.Visibility = Visibility.Hidden;
+            window1.Show();
+
+
+
         }
     }
 }

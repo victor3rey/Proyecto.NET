@@ -19,7 +19,7 @@ namespace AppSteam
     /// </summary>
     public partial class Window2 : Window
     {
-        Stack<object> contenidoAnterior = new Stack<object>();
+       
         public Window2()
         {
             InitializeComponent();
@@ -37,7 +37,7 @@ namespace AppSteam
 
             imagen.Source = new BitmapImage(new Uri(rutasImagenes[indice], UriKind.Relative));
             indice++;
-          
+
         }
         private void MostrarImagenAnterior2(object sender, RoutedEventArgs e)
         {
@@ -49,7 +49,7 @@ namespace AppSteam
             }
 
             imagen.Source = new BitmapImage(new Uri(rutasImagenes[indice], UriKind.Relative));
-           
+
         }
 
         private void MostrarSiguienteImagen3(object sender, RoutedEventArgs e)
@@ -59,7 +59,7 @@ namespace AppSteam
                 indice = 0;
             }
 
-           
+
             imagen2.Source = new BitmapImage(new Uri(rutasImagenes[indice], UriKind.Relative));
             indice++;
         }
@@ -72,24 +72,21 @@ namespace AppSteam
                 indice = rutasImagenes.Count - 1;
             }
 
-           
+
             imagen2.Source = new BitmapImage(new Uri(rutasImagenes[indice], UriKind.Relative));
         }
 
         private void VolverAtras(object sender, RoutedEventArgs e)
         {
-            if (contenidoAnterior.Count > 0)
-            {
-                this.Content = contenidoAnterior.Pop();
-            }
+
+            Window1 window1 = new Window1();
+            this.Visibility = Visibility.Hidden;
+            window1.Show();
+
+
+
         }
 
-        private void CambiarContenido(object sender, RoutedEventArgs e)
-        {
-            contenidoAnterior.Push(this.Content);
-            this.Content = new Window1();
-        }
     }
-
 }
 

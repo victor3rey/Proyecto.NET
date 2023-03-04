@@ -51,5 +51,20 @@
                 </Button.Template>
             </Button>
         </StackPanel>
+        <Button x:Name="volver" Margin="9,25,0,0" Width="59" Height="54" VerticalAlignment="Top" HorizontalAlignment="Left" MinWidth="4" RenderTransformOrigin="0.5,0.5" Click="VolverAtras">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="0.65" ScaleY="0.6"/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+            <Button.Template>
+                <ControlTemplate TargetType="Button">
+                    <Path Fill="#FFFFF9F9" Data="M 0 25 L 25 0 L 25 15 L 50 15 L 50 35 L 25 35 L 25 50 Z" />
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
     </Grid>
 </Window>

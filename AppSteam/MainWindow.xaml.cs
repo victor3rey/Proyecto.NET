@@ -52,7 +52,16 @@ namespace AppSteam
 
             imagen.Source = new BitmapImage(new Uri(rutasImagenes[indice], UriKind.Relative));
         }
-       
+        private void VolverAtras(object sender, RoutedEventArgs e)
+        {
+
+            Window1 window1 = new Window1();
+            this.Visibility = Visibility.Hidden;
+            window1.Show();
+
+
+
+        }
 
     }
 
