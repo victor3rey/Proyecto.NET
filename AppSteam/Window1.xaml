@@ -7,12 +7,12 @@
         mc:Ignorable="d"
         Title="Window1" Height="450" Width="800">
     <Grid>
-        
+
         <Grid.Background>
             <ImageBrush ImageSource="/liga.jpg"/>
         </Grid.Background>
-        
-        <Button Content="Botón redondo" Background="{x:Null}" Click="siguienteventana" HorizontalAlignment="Center" VerticalAlignment="Top" Width="188" Height="36" Margin="0,240,0,0">
+
+        <Button Content="Botón redondo" Background="{x:Null}" Click="siguienteventana" HorizontalAlignment="Center" VerticalAlignment="Top" Width="188" Height="36" Margin="0,264,0,0">
             <Button.Template>
                 <ControlTemplate TargetType="Button">
                     <Border CornerRadius="20" Padding="10" Margin="0,0,13,3">
@@ -24,7 +24,7 @@
                 </ControlTemplate>
             </Button.Template>
         </Button>
-        <Button Content="Botón redondo" Background="{x:Null}" Click="siguienteDOS" HorizontalAlignment="Center" VerticalAlignment="Top" Width="188" Height="36" Margin="0,281,0,0">
+        <Button Content="Botón redondo" Background="{x:Null}" Click="siguienteDOS" HorizontalAlignment="Center" VerticalAlignment="Top" Width="188" Height="36" Margin="0,305,0,0">
             <Button.Template>
                 <ControlTemplate TargetType="Button">
                     <Border CornerRadius="20" Padding="10" Margin="0,0,13,3">
@@ -47,6 +47,7 @@
                 </ControlTemplate>
             </Button.Template>
         </Button>
-        
+        <Image HorizontalAlignment="Center" Height="157" Margin="0,84,0,0" VerticalAlignment="Top" Width="221" Source="/logopro-removebg-preview.png"/>
+
     </Grid>
 </Window>

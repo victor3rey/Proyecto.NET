@@ -5,62 +5,133 @@
     <TargetFramework>net6.0-windows</TargetFramework>
     <Nullable>enable</Nullable>
     <UseWPF>true</UseWPF>
+    <UseWindowsForms>true</UseWindowsForms>
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="1min-removebg-preview %281%29.png" />
+    <None Remove="2min-removebg-preview.png" />
+    <None Remove="3min-removebg-preview.png" />
+    <None Remove="4min-removebg-preview.png" />
+    <None Remove="5min-removebg-preview.png" />
     <None Remove="6173216.png" />
+    <None Remove="6min-removebg-preview.png" />
+    <None Remove="almeria2.png" />
     <None Remove="athletic.png" />
+    <None Remove="athletic2.png" />
     <None Remove="atm.png" />
+    <None Remove="atm2.png" />
     <None Remove="betis.png" />
+    <None Remove="betis2.png" />
     <None Remove="blanconegroliga.png" />
     <None Remove="cadiz.png" />
+    <None Remove="cadiz2.png" />
     <None Remove="celta.png" />
+    <None Remove="celta2.png" />
     <None Remove="elche.png" />
+    <None Remove="elche2.png" />
     <None Remove="espanyol.png" />
+    <None Remove="espanyol2.png" />
     <None Remove="FCB.png" />
+    <None Remove="FCB2.png" />
     <None Remove="getafe.png" />
+    <None Remove="getafe2.png" />
     <None Remove="girona.png" />
+    <None Remove="girona2.png" />
+    <None Remove="img-1b.png" />
     <None Remove="liga.jpg" />
     <None Remove="ligaSantander.png" />
+    <None Remove="lluvia.png" />
+    <None Remove="logopro-removebg-preview.png" />
     <None Remove="mallorca.png" />
+    <None Remove="mallorca2.png" />
     <None Remove="metallic-gold-gradient-golden-color-photo.jpg" />
+    <None Remove="nube2.png" />
+    <None Remove="nubes.png" />
     <None Remove="osasuna.png" />
+    <None Remove="osasuna2.png" />
     <None Remove="rayoo.png" />
+    <None Remove="rayoo2.png" />
     <None Remove="real madrid.png" />
+    <None Remove="real madrid2.png" />
     <None Remove="real sociedad.png" />
+    <None Remove="real sociedad2.png" />
+    <None Remove="s3-0.png" />
     <None Remove="sevilla.png" />
+    <None Remove="sevilla2.png" />
+    <None Remove="Sol.png" />
+    <None Remove="stadium-6954199-5685507.png" />
+    <None Remove="timer.png" />
     <None Remove="UD Almeria.png" />
     <None Remove="valencia.png" />
+    <None Remove="valencia2.png" />
     <None Remove="valladolid.png" />
+    <None Remove="valladolid2.png" />
     <None Remove="villareal.png" />
+    <None Remove="villareal2.png" />
   </ItemGroup>
 
   <ItemGroup>
+    <Resource Include="1min-removebg-preview (1).png" />
+    <Resource Include="2min-removebg-preview.png" />
+    <Resource Include="3min-removebg-preview.png" />
+    <Resource Include="4min-removebg-preview.png" />
+    <Resource Include="5min-removebg-preview.png" />
     <Resource Include="6173216.png" />
+    <Resource Include="6min-removebg-preview.png" />
+    <Resource Include="almeria2.png" />
     <Resource Include="athletic.png" />
+    <Resource Include="athletic2.png" />
     <Resource Include="atm.png" />
+    <Resource Include="atm2.png" />
     <Resource Include="betis.png" />
+    <Resource Include="betis2.png" />
     <Resource Include="blanconegroliga.png" />
     <Resource Include="cadiz.png" />
+    <Resource Include="cadiz2.png" />
     <Resource Include="celta.png" />
+    <Resource Include="celta2.png" />
     <Resource Include="elche.png" />
+    <Resource Include="elche2.png" />
     <Resource Include="espanyol.png" />
+    <Resource Include="espanyol2.png" />
     <Resource Include="FCB.png" />
+    <Resource Include="FCB2.png" />
     <Resource Include="getafe.png" />
+    <Resource Include="getafe2.png" />
     <Resource Include="girona.png" />
+    <Resource Include="girona2.png" />
+    <Resource Include="img-1b.png" />
     <Resource Include="liga.jpg" />
     <Resource Include="ligaSantander.png" />
+    <Resource Include="lluvia.png" />
+    <Resource Include="logopro-removebg-preview.png" />
     <Resource Include="mallorca.png" />
+    <Resource Include="mallorca2.png" />
     <Resource Include="metallic-gold-gradient-golden-color-photo.jpg" />
+    <Resource Include="nube2.png" />
+    <Resource Include="nubes.png" />
     <Resource Include="osasuna.png" />
+    <Resource Include="osasuna2.png" />
     <Resource Include="rayoo.png" />
+    <Resource Include="rayoo2.png" />
     <Resource Include="real madrid.png" />
+    <Resource Include="real madrid2.png" />
     <Resource Include="real sociedad.png" />
+    <Resource Include="real sociedad2.png" />
+    <Resource Include="s3-0.png" />
     <Resource Include="sevilla.png" />
+    <Resource Include="sevilla2.png" />
+    <Resource Include="Sol.png" />
+    <Resource Include="stadium-6954199-5685507.png" />
+    <Resource Include="timer.png" />
     <Resource Include="UD Almeria.png" />
     <Resource Include="valencia.png" />
+    <Resource Include="valencia2.png" />
     <Resource Include="valladolid.png" />
+    <Resource Include="valladolid2.png" />
     <Resource Include="villareal.png" />
+    <Resource Include="villareal2.png" />
   </ItemGroup>
 
 </Project>

@@ -66,5 +66,17 @@
                 </ControlTemplate>
             </Button.Template>
         </Button>
+        <Button Content="Botón redondo" Background="{x:Null}" HorizontalAlignment="Center" VerticalAlignment="Top" Width="188" Height="36" Margin="0,355,0,0" Click="Button_Click">
+            <Button.Template>
+                <ControlTemplate TargetType="Button">
+                    <Border CornerRadius="20" Padding="10" Margin="0,0,13,3">
+                        <Border.Background>
+                            <ImageBrush ImageSource="/metallic-gold-gradient-golden-color-photo.jpg"/>
+                        </Border.Background>
+                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" Content="Siguiente"/>
+                    </Border>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
     </Grid>
 </Window>

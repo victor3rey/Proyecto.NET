@@ -87,6 +87,12 @@ namespace AppSteam
 
         }
 
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            Window4 window4 = new Window4();
+            this.Visibility = Visibility.Hidden;
+            window4.Show();
+        }
     }
 }
 
