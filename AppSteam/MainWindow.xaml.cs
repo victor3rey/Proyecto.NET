@@ -16,7 +16,7 @@ using System.Windows.Shapes;
 
 
 
-namespace AppSteam
+namespace JDVAPP
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml

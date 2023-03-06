@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement.StartPanel;
 
-namespace AppSteam
+namespace JDVAPP
 {
     /// <summary>
     /// Lógica de interacción para Window4.xaml

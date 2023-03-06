@@ -12,7 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 
-namespace AppSteam
+namespace JDVAPP
 {
     /// <summary>
     /// Lógica de interacción para Window2.xaml
